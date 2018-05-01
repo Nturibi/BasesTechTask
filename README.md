@@ -1,7 +1,4 @@
-# HW5: Sheetsu Clone
+# Bases Tech Task
 
-This is the starter code for HW5: Sheets.
-
-**Note:** You need to do some setup before the starter code will run properly.
-
-[Check out the spec](http://cs193x.stanford.edu/homework/5-sheets) for instructions.
+A simple user registration system for my Bases application. 
+Has a registration form with error checking in place.
