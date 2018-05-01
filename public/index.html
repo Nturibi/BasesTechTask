@@ -1,0 +1,82 @@
+<!--
+You should NOT have to modify this file for the assignment!
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>Bases App</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+    <script src="js/script.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+
+
+
+
+    <form id="userData" >
+      <p> <span>Welcome to  <img src="favicon.png" alt="b">ases</span>   </p>
+
+        <label for="username">Username</label>
+          <br/>
+        <input input pattern=".{3,}"  required title="3 characters minimum" type="text" name="" value="" id="username">
+        <br/>
+
+        <label for="year">Year</label>
+
+        <div id="year">
+            <input type="radio"  name="rr" value="Freshman"checked />
+            <label for="r1"><span></span>Freshman</label>
+
+            <input type="radio" name="rr" value="Sophomore" />
+            <label for="r2"><span></span>Sophomore</label>
+
+            <input type="radio"  name="rr"  value="Junior"/>
+            <label for="r2"><span></span>Junior</label>
+
+            <input type="radio"  name="rr" value="Senior" />
+            <label for="r2"><span></span>Senior</label>
+        </div>
+
+
+        <label for="major">Major</label>
+          <br/>
+        <input input pattern=".{3,}"  required title="Enter the full course name" type="text" name="" value="" id="major">
+        <br>
+
+        <label for="password">Password</label>
+          <br/>
+        <input type="password" pattern=".{6,}" required title="Password need to be at least 6 digits" id="psw">
+        <br>
+
+        <label for="confirmpassword">Confirm Password</label>
+          <br/>
+        <input type="password" pattern=".{6,}" id="cpsw" >
+        <br>
+
+        <div id="error">
+        </div>
+          <br/>
+
+        <div id="notification">
+        </div>
+
+        <input type="submit" value="Add User">
+
+
+
+     </form>
+
+
+  </body>
+</html>

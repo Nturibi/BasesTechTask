@@ -1,0 +1,34 @@
+#error{
+  color: red;
+}
+#notification{
+  color: green;
+}
+input{
+  margin: 10px;
+}
+
+#userData{
+  border: 2px solid black;
+  min-width: 40%;
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+  font: 'Serif';
+
+}
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: : 100vh;
+  width: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+ }
+ html,body{
+   height: 100%;
+ }
+ span{
+   font-size: 8vh;
+ }
