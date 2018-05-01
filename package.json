@@ -1,10 +1,10 @@
 {
   "name": "bases",
   "version": "1.0.0",
-  "description": "CS193X HW5",
+  "description": "Bases tech task",
   "main": "server.js",
   "engines": {
-    "node": "7x"
+    "node": "9.4.0"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
